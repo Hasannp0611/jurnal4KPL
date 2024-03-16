@@ -32,3 +32,61 @@ public class KodeBuah
         }
     }
 }
+
+public class PosisiKarakterGame
+{
+    public enum posisi
+    {
+        Berdiri,
+        Tengkurap
+    }
+
+    private posisi statusAwal;
+    public PosisiKarakterGame()
+    { 
+        statusAwal = posisi.Berdiri;
+    }
+
+    public void PosisiBerdiri() 
+    {
+        statusAwal = posisi.Berdiri;
+        Console.WriteLine("Posisi Standby");
+    }
+
+    public void PosisiTengkurap()
+    {
+        statusAwal = posisi.Tengkurap;
+        Console.WriteLine("Posisi Istirahat");
+    }
+}
+class Program
+{
+    static void Main(string[] args)
+    { 
+        KodeBuah kodeBuah = new KodeBuah();
+        string buah;
+        string kdbuah;
+        PosisiKarakterGame posisi = new PosisiKarakterGame();
+
+        buah = "Semangka";
+        kdbuah = kodeBuah.GetKodeBuah(buah);
+        Console.WriteLine($"Buah {buah} memiliki kode {kdbuah}");
+        
+        buah = "Apel";
+        kdbuah = kodeBuah.GetKodeBuah(buah);
+        Console.WriteLine($"Buah {buah} memiliki kode {kdbuah}");
+
+        buah = "Anggur";
+        kdbuah = kodeBuah.GetKodeBuah(buah);
+        Console.WriteLine($"Buah {buah} memiliki kode {kdbuah}");
+        
+        posisi.PosisiBerdiri();
+        posisi.PosisiBerdiri();
+        posisi.PosisiBerdiri();
+        Console.WriteLine("Posisi Istirahat:");
+        posisi.PosisiTengkurap();
+        posisi.PosisiTengkurap();
+        posisi.PosisiTengkurap();
+
+    }
+}

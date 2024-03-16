@@ -1,0 +1,15 @@
+D:\praktikum4\praktikum4\bin\Debug\net8.0\praktikum4.exe
+D:\praktikum4\praktikum4\bin\Debug\net8.0\praktikum4.deps.json
+D:\praktikum4\praktikum4\bin\Debug\net8.0\praktikum4.runtimeconfig.json
+D:\praktikum4\praktikum4\bin\Debug\net8.0\praktikum4.dll
+D:\praktikum4\praktikum4\bin\Debug\net8.0\praktikum4.pdb
+D:\praktikum4\praktikum4\obj\Debug\net8.0\praktikum4.GeneratedMSBuildEditorConfig.editorconfig
+D:\praktikum4\praktikum4\obj\Debug\net8.0\praktikum4.AssemblyInfoInputs.cache
+D:\praktikum4\praktikum4\obj\Debug\net8.0\praktikum4.AssemblyInfo.cs
+D:\praktikum4\praktikum4\obj\Debug\net8.0\praktikum4.csproj.CoreCompileInputs.cache
+D:\praktikum4\praktikum4\obj\Debug\net8.0\praktikum4.sourcelink.json
+D:\praktikum4\praktikum4\obj\Debug\net8.0\praktikum4.dll
+D:\praktikum4\praktikum4\obj\Debug\net8.0\refint\praktikum4.dll
+D:\praktikum4\praktikum4\obj\Debug\net8.0\praktikum4.pdb
+D:\praktikum4\praktikum4\obj\Debug\net8.0\praktikum4.genruntimeconfig.cache
+D:\praktikum4\praktikum4\obj\Debug\net8.0\ref\praktikum4.dll
